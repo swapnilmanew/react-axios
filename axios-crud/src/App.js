@@ -7,8 +7,9 @@ function App() {
     <>
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Inde} />
         </Switch>
+          <Route exact path="/" component={Index} />
+          <Route exact path="/add" component={Add} />
       </BrowserRouter>
     </>
   );
